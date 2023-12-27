@@ -209,6 +209,7 @@ notification_settings {
 #sudo dpkg -i google-chrome-stable_current_amd64.deb
 #sudo apt -f install
 
+
 #Command to copy file from remote ubuntu VM
 # sudo scp -i /Users/pdesai/Library/CloudStorage/OneDrive-ENDAVA/dev/azure-terraform-linux-vm/linuxkey.pem azureadmin@172.191.101.134:/home/azureadmin/Downloads/download.jpeg /Users/pdesai/Downloads/
 

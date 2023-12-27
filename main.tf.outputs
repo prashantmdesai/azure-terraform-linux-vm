@@ -1,0 +1,24 @@
+key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZ1pUxY28W79A6EfjLD4IGJiL6rdizIy3oB3IEQQqqA7OI4CR2OeKtFkTj9WDDdm5Xt6dzonn1Y5qD4Xfbg9iEgo/t4x8tLqkWlG+nZtt3vvmSjYz7uTANIO1Olsb7ML82PnQ2hoTv+8NBZtfcmYab4xP2Upq/hKC2WYN3KT23exPpVZcpk6lpXrltiC/Vt/ZkcJXVqVPZ3UXhxkn7IeosJ5VVFrRM4TuvETn4LENmcOx1Axe/S32JbGQi6NHDHCdPwB08CQMEYsDI4ZiBXEwCaiL2I3jfdCVrBWJpyoKEwWtH/uRtmy705RoIym/lc1VKvLdyzu1LZKe9uLu6f3GXcBuNaDvacrEXjqq2MUUOF3obZ8GU85T+qThtrdNpS0CTjrHrlV6fWLqmRMVmELWSb4Lal7KsBTGc2AXy6wj2i4MF3Ojnc6FmPvit4Eu6s1pebgavXNwSjNW5Tb4DmrXRqd1v054RD8qBLH7mB2x7/kL5BFO9aZefU0ckfAHj5H0= generated-by-azure"
+public_ip_address = "13.68.152.180"
+resource_group_name = "rg-lasting-shrew"
+
+
+###########################################
+
+pdesai@FP2D0XKT2V azure-terraform-linux-vm % az ssh vm --ip 13.68.152.180
+The command requires the extension ssh. Do you want to install it now? The command will continue to run after the extension is installed. (Y/n): Y
+Run 'az config set extension.use_dynamic_install=yes_without_prompt' to allow installing extensions without prompt.
+OpenSSH_9.0p1, LibreSSL 3.3.6
+The authenticity of host '13.68.152.180 (13.68.152.180)' can't be established.
+ED25519 key fingerprint is SHA256:gMYjkaNwDyEYkkIB39dUXi65lHUX12i1+9b6OFKZYb0.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+
+
+###########################################
+
+key_data = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCZ1pUxY28W79A6EfjLD4IGJiL6rdizIy3oB3IEQQqqA7OI4CR2OeKtFkTj9WDDdm5Xt6dzonn1Y5qD4Xfbg9iEgo/t4x8tLqkWlG+nZtt3vvmSjYz7uTANIO1Olsb7ML82PnQ2hoTv+8NBZtfcmYab4xP2Upq/hKC2WYN3KT23exPpVZcpk6lpXrltiC/Vt/ZkcJXVqVPZ3UXhxkn7IeosJ5VVFrRM4TuvETn4LENmcOx1Axe/S32JbGQi6NHDHCdPwB08CQMEYsDI4ZiBXEwCaiL2I3jfdCVrBWJpyoKEwWtH/uRtmy705RoIym/lc1VKvLdyzu1LZKe9uLu6f3GXcBuNaDvacrEXjqq2MUUOF3obZ8GU85T+qThtrdNpS0CTjrHrlV6fWLqmRMVmELWSb4Lal7KsBTGc2AXy6wj2i4MF3Ojnc6FmPvit4Eu6s1pebgavXNwSjNW5Tb4DmrXRqd1v054RD8qBLH7mB2x7/kL5BFO9aZefU0ckfAHj5H0= generated-by-azure"
+public_ip_address = "172.173.185.158"
+resource_group_name = "rg-lasting-shrew"
+
+###########################################
